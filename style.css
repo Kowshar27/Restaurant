@@ -1,0 +1,87 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+}
+@media screen and (max-width:476px){
+    body{
+        background-color: lightseagreen;
+    }
+    .nav-containar{
+        
+        background-color: rgb(13, 70, 67);
+    }
+    .nav-content{
+        padding: 4px;
+    }
+    .nav-content a{
+        color: white;
+        display: block;
+        padding: 8px;
+        margin: 4px;
+        border-radius: 4px;
+        font-size: 0.5rem;
+        text-align: center;
+        text-decoration: none;
+        background-color: rgb(23, 158, 151);
+        transition: 0.9s;
+        
+    }
+    .nav-content a:hover{
+        color: white;
+        background-color: rgb(54, 87, 85);
+    }
+    .sectionone-containar{
+        background-image: url(chickenfry.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        
+    }
+    .sectionone-content{
+        text-align: center;
+        padding: 55px;
+    }
+    .sectionone-content h2{
+        background-color: pink;
+        padding: 3px;
+        width: 100%;
+        font-size: 1.16vh;
+        border: 2px solid black;
+        border-radius: 8px;
+    }
+    .sectionone-content p{
+        color: rgb(45, 114, 24);
+        font-size: 2vh;
+        margin: 11px;
+    }
+    .sectionone-content a{
+        text-decoration: none;
+        background-color: rgb(22, 180, 114);
+        color: white;
+        padding: 2px;
+        border-radius: 8px;
+        font-size: 1.3vh;
+        transition: 0.5s;
+    }
+    .sectionone-content a:hover{
+        background-color: rgb(12, 80, 52);
+        color: white;
+        
+    }
+    .fotter-container{
+        background-color: rgb(13, 70, 67);
+
+    }
+    .fotter-container address{
+        text-align: center;
+        color: rgb(230, 225, 225);
+        font-size: 0.61rem;
+    }
+}
